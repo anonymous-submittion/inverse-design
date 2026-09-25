@@ -1,0 +1,13 @@
+name: ising_ib
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pytorch>=2.2
+  - matplotlib>=3.8
+  - pip
+  - pip:
+      - safetensors>=0.4

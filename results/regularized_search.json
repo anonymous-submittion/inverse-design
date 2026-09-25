@@ -1,0 +1,137 @@
+[
+  {
+    "batch_size": 1,
+    "lam": 0.01,
+    "lr": 0.1,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 699.9079743443256,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.01,
+    "lr": 0.9,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 3.1897436190756245,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.01,
+    "lr": 1.2,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 0.05531925270632254,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.1,
+    "lr": 0.1,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 171.80445367321838,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.1,
+    "lr": 0.9,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 4.065414671572398e-12,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.1,
+    "lr": 1.2,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 2.489120021209601e-12,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.3,
+    "lr": 0.1,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 397.8562170322652,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.3,
+    "lr": 0.9,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 410.4820491105288,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.3,
+    "lr": 1.2,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 356.39806980745857,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.6,
+    "lr": 0.1,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 552.3280216891792,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.6,
+    "lr": 0.9,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 598.2205026881074,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 0.6,
+    "lr": 1.2,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 690.3389673710443,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 1,
+    "lr": 0.1,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 597.1997114012937,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 1,
+    "lr": 0.9,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 799.7203667871854,
+    "status": "ok"
+  },
+  {
+    "batch_size": 1,
+    "lam": 1,
+    "lr": 1.2,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "D1": 814.8127787139656,
+    "status": "ok"
+  }
+]

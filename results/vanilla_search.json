@@ -1,0 +1,38 @@
+[
+  {
+    "lam": 0.0,
+    "lr": 0.1,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "batch_size": 1,
+    "D1": 893.6359988978211,
+    "status": "ok"
+  },
+  {
+    "lam": 0.0,
+    "lr": 0.6,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "batch_size": 1,
+    "D1": 892.9641519235154,
+    "status": "ok"
+  },
+  {
+    "lam": 0.0,
+    "lr": 0.9,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "batch_size": 1,
+    "D1": 892.9643963914547,
+    "status": "ok"
+  },
+  {
+    "lam": 0.0,
+    "lr": 1.2,
+    "fresh_noise": 0.0,
+    "steps": 300000,
+    "batch_size": 1,
+    "D1": 892.9643996562043,
+    "status": "ok"
+  }
+]

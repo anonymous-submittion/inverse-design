@@ -1,0 +1,137 @@
+{
+  "config": {
+    "n_spins": 60,
+    "ratio": 0.6,
+    "n_test": 2048,
+    "teacher_seed": 7,
+    "data_seed": 17,
+    "init_seed": 27,
+    "training_seed": 7,
+    "a_mean": 0.1,
+    "a_std": 0.02,
+    "b_std": 0.0,
+    "acquisition_noise": 0.0,
+    "regularized_batch_size": 1,
+    "parameterized_batch_size": 1,
+    "vanilla_batch_size": 1,
+    "lambdas": [
+      0.01,
+      0.1,
+      0.3,
+      0.6,
+      1
+    ],
+    "regularized_lrs": [
+      0.1,
+      0.9,
+      1.2
+    ],
+    "regularized_fresh_noise": 0.0,
+    "regularized_steps": 300000,
+    "parameterized_lrs": [
+      0.1,
+      0.6,
+      0.9
+    ],
+    "parameterized_noises": [
+      0.6,
+      0.7,
+      0.8
+    ],
+    "parameterized_steps": 300000,
+    "vanilla_lrs": [
+      0.1,
+      0.6,
+      0.9,
+      1.2
+    ],
+    "vanilla_fresh_noise": 0.0,
+    "vanilla_steps": 300000,
+    "n_repeats": 10,
+    "log_every": 1000,
+    "ratio_window": 1000,
+    "ratio_mode": "mean_step",
+    "ratio_epsilon": 1e-12,
+    "ratio_mask_small": true,
+    "plot_clean_train": true,
+    "latent_limit": 20.0,
+    "weight_limit": 100.0,
+    "hist_bins": 61
+  },
+  "d": 1770,
+  "N": 1062,
+  "actual_ratio": 0.6,
+  "selected": {
+    "regularized": {
+      "settings": {
+        "batch_size": 1,
+        "lam": 0.1,
+        "lr": 1.2,
+        "fresh_noise": 0.0,
+        "steps": 300000
+      },
+      "D1": 2.489120021209601e-12
+    },
+    "parameterized": {
+      "settings": {
+        "batch_size": 1,
+        "lr": 0.6,
+        "fresh_noise": 0.6,
+        "steps": 300000
+      },
+      "D1": 4.440892098500626e-16
+    },
+    "vanilla": {
+      "settings": {
+        "lam": 0.0,
+        "lr": 0.6,
+        "fresh_noise": 0.0,
+        "steps": 300000,
+        "batch_size": 1
+      },
+      "D1": 892.9641519235154
+    }
+  },
+  "selection": "final raw oracle D1 (repeat 0)",
+  "metrics": {
+    "parameterized": {
+      "n_repeats": 10,
+      "D1_mean": 3.774758283725532e-16,
+      "D1_std": 2.1181705310112557e-16,
+      "MAE_mean": 2.1326317987149902e-19,
+      "MAE_std": 1.1967065146956245e-19,
+      "clean_train_mse_mean": 2.735756283601724e-32,
+      "clean_train_mse_std": 1.3125290685225104e-34,
+      "observed_train_mse_mean": 2.735756283601724e-32,
+      "observed_train_mse_std": 1.3125290685225104e-34,
+      "test_mse_mean": 0.0,
+      "test_mse_std": 0.0
+    },
+    "regularized": {
+      "n_repeats": 10,
+      "D1_mean": 2.4398594256069827e-12,
+      "D1_std": 8.46024481902956e-14,
+      "MAE_mean": 1.3784516528853008e-15,
+      "MAE_std": 4.779799332785063e-17,
+      "clean_train_mse_mean": 3.4024827034731864e-30,
+      "clean_train_mse_std": 1.675363979230143e-31,
+      "observed_train_mse_mean": 3.4024827034731864e-30,
+      "observed_train_mse_std": 1.675363979230143e-31,
+      "test_mse_mean": 6.0821095227831384e-30,
+      "test_mse_std": 3.426914912311093e-31
+    },
+    "vanilla": {
+      "n_repeats": 10,
+      "D1_mean": 892.9641441913751,
+      "D1_std": 4.329280143395811e-05,
+      "MAE_mean": 0.5044995164923024,
+      "MAE_std": 2.4459209834851774e-08,
+      "clean_train_mse_mean": 9.280047897254812e-12,
+      "clean_train_mse_std": 1.3067840204466927e-12,
+      "observed_train_mse_mean": 9.280047897254812e-12,
+      "observed_train_mse_std": 1.3067840204466927e-12,
+      "test_mse_mean": 0.40881590869658524,
+      "test_mse_std": 3.667706828741767e-08
+    }
+  }
+}

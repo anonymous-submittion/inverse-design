@@ -1,0 +1,31 @@
+{
+  "regularized": {
+    "settings": {
+      "batch_size": 1,
+      "lam": 0.1,
+      "lr": 1.2,
+      "fresh_noise": 0.0,
+      "steps": 300000
+    },
+    "D1": 2.489120021209601e-12
+  },
+  "parameterized": {
+    "settings": {
+      "batch_size": 1,
+      "lr": 0.6,
+      "fresh_noise": 0.6,
+      "steps": 300000
+    },
+    "D1": 4.440892098500626e-16
+  },
+  "vanilla": {
+    "settings": {
+      "lam": 0.0,
+      "lr": 0.6,
+      "fresh_noise": 0.0,
+      "steps": 300000,
+      "batch_size": 1
+    },
+    "D1": 892.9641519235154
+  }
+}
